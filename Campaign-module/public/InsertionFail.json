@@ -1,0 +1,686 @@
+{
+  "failedCount": 37,
+  "failures": [
+    {
+      "docs": {
+        "OrderId": "d345672",
+        "PatientName": "Maaz ali",
+        "Identification": "12oii33"
+      },
+      "message": "Report validation failed: OnlineId: Path `OnlineId` is required., Passport: Path `Passport` is required., Nationality: Path `Nationality` is required., MobileNo: Path `MobileNo` is required., Gender: Path `Gender` is required., branch: Path `branch` is required.",
+      "timeStamp": "2025-09-19T14:12:02.049Z"
+    },
+    {
+      "docs": {
+        "OrderId": "d345672",
+        "PatientName": "Maaz ali",
+        "Identification": "12oii33"
+      },
+      "message": "Report validation failed: OnlineId: Path `OnlineId` is required., Passport: Path `Passport` is required., Nationality: Path `Nationality` is required., MobileNo: Path `MobileNo` is required., Gender: Path `Gender` is required., branch: Path `branch` is required.",
+      "timeStamp": "2025-09-19T17:27:12.071Z"
+    },
+    {
+      "docs": {
+        "OrderId": "d345672",
+        "PatientName": "Maaz ali",
+        "Identification": "12oii33"
+      },
+      "message": "Report validation failed: OnlineId: Path `OnlineId` is required., Passport: Path `Passport` is required., Nationality: Path `Nationality` is required., MobileNo: Path `MobileNo` is required., Gender: Path `Gender` is required., branch: Path `branch` is required.",
+      "timeStamp": "2025-09-21T10:43:40.768Z"
+    },
+    {
+      "docs": {
+        "OrderId": "d345672",
+        "PatientName": "Maaz ali",
+        "Identification": "12oii33"
+      },
+      "message": "Report validation failed: OnlineId: Path `OnlineId` is required., Passport: Path `Passport` is required., Nationality: Path `Nationality` is required., MobileNo: Path `MobileNo` is required., Gender: Path `Gender` is required., branch: Path `branch` is required.",
+      "timeStamp": "2025-09-21T10:44:32.908Z"
+    },
+    {
+      "docs": {
+        "OrderId": "d345672",
+        "PatientName": "Maaz ali",
+        "Identification": "12oii33"
+      },
+      "message": "Report validation failed: OnlineId: Path `OnlineId` is required., Passport: Path `Passport` is required., Nationality: Path `Nationality` is required., MobileNo: Path `MobileNo` is required., Gender: Path `Gender` is required., branch: Path `branch` is required.",
+      "timeStamp": "2025-09-21T10:44:43.078Z"
+    },
+    {
+      "docs": {
+        "OrderId": "d345672",
+        "PatientName": "Maaz ali",
+        "Identification": "12oii33"
+      },
+      "message": "Report validation failed: OnlineId: Path `OnlineId` is required., Passport: Path `Passport` is required., Nationality: Path `Nationality` is required., MobileNo: Path `MobileNo` is required., Gender: Path `Gender` is required., branch: Path `branch` is required.",
+      "timeStamp": "2025-09-22T12:01:05.475Z"
+    },
+    {
+      "docs": {
+        "OrderId": "d345672",
+        "PatientName": "baqtiyaar ali",
+        "Identification": "12oii33",
+        "Gender": "male",
+        "MobileNo": "96565344",
+        "Nationality": "indian",
+        "PaymentMethod": "cash",
+        "OnlineId": "A@gmail.com"
+      },
+      "message": "Report validation failed: Passport: Path `Passport` is required., branch: Path `branch` is required.",
+      "timeStamp": "2025-09-22T12:04:09.645Z"
+    },
+    {
+      "docs": {
+        "OrderId": "d345672",
+        "PatientName": "baqtiyaar ali",
+        "Identification": "12oii33",
+        "Gender": "male",
+        "MobileNo": "96565344",
+        "Nationality": "indian",
+        "PaymentMethod": "cash",
+        "OnlineId": "A@gmail.com",
+        "Passport": "P54F7812"
+      },
+      "message": "Report validation failed: branch: Path `branch` is required.",
+      "timeStamp": "2025-09-22T12:04:52.468Z"
+    },
+    {
+      "docs": {
+        "OrderId": "d345672",
+        "PatientName": "saif ali",
+        "Identification": "9iu876rew",
+        "Gender": "male",
+        "MobileNo": "68382384",
+        "Nationality": "indian",
+        "PaymentMethod": "cash",
+        "OnlineId": "A@gmail.com",
+        "Passport": "P54F7812",
+        "branch": "68d13d59326a384b22c3f99c"
+      },
+      "message": "Branch validation failed: city: Path `city` is required., name: Path `name` is required., code: Path `code` is required.",
+      "timeStamp": "2025-09-22T12:13:41.253Z"
+    },
+    {
+      "docs": {
+        "OrderId": "213ddf2",
+        "PatientName": "saif ali khan",
+        "Identification": "12fefe3r3",
+        "Gender": "male",
+        "MobileNo": "818319319",
+        "Nationality": "indian",
+        "Passport": "P45779G",
+        "OnlineId": "ER3445564"
+      },
+      "message": "Report validation failed: branch: Path `branch` is required.",
+      "timeStamp": "2025-09-24T10:16:26.594Z"
+    },
+    {
+      "docs": {
+        "name": "MD BAQTIYAR ALI MAAZ",
+        "createdBy": "671c1ad66d0d7b5b46f7f999",
+        "status": "active",
+        "totalRecords": 200,
+        "metaData": {
+          "query": "{\"filtersUsed\":true}",
+          "communication": {
+            "type": "sms",
+            "provider": "MSG91",
+            "message": "hey there"
+          },
+          "startDate": "2025-10-08",
+          "endDate": "2025-10-10",
+          "totalRecords": 200
+        }
+      },
+      "message": "Campaign validation failed: endDate: Path `endDate` is required., startDate: Path `startDate` is required., message: Path `message` is required., provider: Path `provider` is required.",
+      "timeStamp": "2025-10-10T16:52:11.613Z"
+    },
+    {
+      "docs": {
+        "name": "MD BAQTIYAR ALI MAAZ",
+        "createdBy": "671c1ad66d0d7b5b46f7f999",
+        "status": "active",
+        "totalRecords": 200,
+        "metaData": {
+          "query": "{\"filtersUsed\":true}",
+          "communication": {
+            "type": "sms",
+            "provider": "MSG91",
+            "message": "hey there"
+          },
+          "startDate": "2025-10-08",
+          "endDate": "2025-10-10",
+          "totalRecords": 200
+        }
+      },
+      "message": "Campaign validation failed: endDate: Path `endDate` is required., startDate: Path `startDate` is required., message: Path `message` is required., provider: Path `provider` is required.",
+      "timeStamp": "2025-10-10T16:52:18.112Z"
+    },
+    {
+      "docs": {
+        "name": "MD BAQTIYAR ALI MAAZ",
+        "createdBy": "671c1ad66d0d7b5b46f7f999",
+        "status": "active",
+        "totalRecords": 200,
+        "metaData": {
+          "query": "{\"filtersUsed\":true}",
+          "communication": {
+            "type": "sms",
+            "provider": "MSG91",
+            "message": "hey there"
+          },
+          "startDate": "2025-10-08",
+          "endDate": "2025-10-10",
+          "totalRecords": 200
+        }
+      },
+      "message": "Campaign validation failed: endDate: Path `endDate` is required., startDate: Path `startDate` is required., message: Path `message` is required., provider: Path `provider` is required.",
+      "timeStamp": "2025-10-10T16:52:50.864Z"
+    },
+    {
+      "docs": {
+        "name": "MD BAQTIYAR ALI MAAZ",
+        "createdBy": "671c1ad66d0d7b5b46f7f999",
+        "status": "active",
+        "totalRecords": 200,
+        "metaData": {
+          "query": "{\"filtersUsed\":true}",
+          "communication": {
+            "type": "sms",
+            "provider": "MSG91",
+            "message": "hey there"
+          },
+          "startDate": "2025-10-08",
+          "endDate": "2025-10-10",
+          "totalRecords": 200
+        }
+      },
+      "message": "Campaign validation failed: endDate: Path `endDate` is required., startDate: Path `startDate` is required., message: Path `message` is required., provider: Path `provider` is required.",
+      "timeStamp": "2025-10-10T16:53:05.324Z"
+    },
+    {
+      "docs": {
+        "name": "MD BAQTIYAR ALI MAAZ",
+        "createdBy": "671c1ad66d0d7b5b46f7f999",
+        "status": "active",
+        "totalRecords": 200,
+        "metaData": {
+          "query": "{\"filtersUsed\":true}",
+          "communication": {
+            "type": "sms",
+            "provider": "MSG91",
+            "message": "hey there"
+          },
+          "startDate": "2025-10-08",
+          "endDate": "2025-10-10",
+          "totalRecords": 200
+        }
+      },
+      "message": "Campaign validation failed: endDate: Path `endDate` is required., startDate: Path `startDate` is required., message: Path `message` is required., provider: Path `provider` is required.",
+      "timeStamp": "2025-10-10T16:53:09.735Z"
+    },
+    {
+      "docs": {
+        "name": "MD BAQTIYAR ALI MAAZ",
+        "createdBy": "671c1ad66d0d7b5b46f7f999",
+        "status": "active",
+        "totalRecords": 200,
+        "metaData": {
+          "query": "{\"filtersUsed\":true}",
+          "communication": {
+            "type": "sms",
+            "provider": "MSG91",
+            "message": "hey there"
+          },
+          "startDate": "2025-10-08",
+          "endDate": "2025-10-10",
+          "totalRecords": 200
+        }
+      },
+      "message": "Campaign validation failed: endDate: Path `endDate` is required., startDate: Path `startDate` is required., message: Path `message` is required., provider: Path `provider` is required.",
+      "timeStamp": "2025-10-10T16:53:15.353Z"
+    },
+    {
+      "docs": {
+        "name": "MD BAQTIYAR ALI MAAZ",
+        "createdBy": "671c1ad66d0d7b5b46f7f999",
+        "status": "active",
+        "totalRecords": 200,
+        "metaData": {
+          "query": "{\"filtersUsed\":true}",
+          "communication": {
+            "type": "sms",
+            "provider": "MSG91",
+            "message": "hey there"
+          },
+          "startDate": "2025-10-08",
+          "endDate": "2025-10-10",
+          "totalRecords": 200
+        }
+      },
+      "message": "Campaign validation failed: endDate: Path `endDate` is required., startDate: Path `startDate` is required., message: Path `message` is required., provider: Path `provider` is required.",
+      "timeStamp": "2025-10-10T16:56:52.875Z"
+    },
+    {
+      "docs": {
+        "name": "Md Baqtiyaar Ali Maaz",
+        "createdBy": "671c1ad66d0d7b5b46f7f999",
+        "status": "active",
+        "totalRecords": 200,
+        "metaData": {
+          "query": "{\"filtersUsed\":true}",
+          "communication": {
+            "type": "sms",
+            "provider": "MSG91",
+            "message": "hey there"
+          },
+          "startDate": "2025-10-08",
+          "endDate": "2025-10-10",
+          "totalRecords": 200
+        }
+      },
+      "message": "Campaign validation failed: endDate: Path `endDate` is required., startDate: Path `startDate` is required., message: Path `message` is required., provider: Path `provider` is required.",
+      "timeStamp": "2025-10-10T17:26:51.266Z"
+    },
+    {
+      "docs": {
+        "name": "September Promo Campaign",
+        "createdBy": "651fae1b9f1a3a1234567890",
+        "metaData": {
+          "query": "{'branch':'68ca0406959b8811f22833d3'}",
+          "communication": {
+            "type": "email",
+            "provider": "sendgrid",
+            "message": "Hello! Don’t miss our special September offers."
+          },
+          "startDate": "2025-09-25T00:00:00.000Z",
+          "endDate": "2025-09-30T23:59:59.000Z",
+          "totalRecords": 5000,
+          "updatedRecords": 0
+        },
+        "status": "active"
+      },
+      "message": "Campaign validation failed: endDate: Path `endDate` is required., startDate: Path `startDate` is required., message: Path `message` is required., provider: Path `provider` is required.",
+      "timeStamp": "2025-10-14T10:38:52.561Z"
+    },
+    {
+      "docs": {
+        "name": "September Promo Campaign",
+        "createdBy": "651fae1b9f1a3a1234567890",
+        "metaData": {
+          "query": "{'branch':'68ca0406959b8811f22833d3'}",
+          "communication": {
+            "type": "email",
+            "provider": "sendgrid",
+            "message": "Hello! Don’t miss our special September offers."
+          },
+          "startDate": "2025-09-25T00:00:00.000Z",
+          "endDate": "2025-09-30T23:59:59.000Z",
+          "totalRecords": 5000,
+          "updatedRecords": 0
+        },
+        "status": "active"
+      },
+      "message": "Campaign validation failed: endDate: Path `endDate` is required., startDate: Path `startDate` is required., message: Path `message` is required., provider: Path `provider` is required.",
+      "timeStamp": "2025-10-14T10:39:29.547Z"
+    },
+    {
+      "docs": {
+        "name": "September Promo Campaign",
+        "createdBy": "651fae1b9f1a3a1234567890",
+        "metaData": {
+          "query": "{'branch':'68ca0406959b8811f22833d3'}",
+          "communication": {
+            "type": "email",
+            "provider": "sendgrid",
+            "message": "Hello! Don’t miss our special September offers."
+          },
+          "startDate": "2025-09-25T00:00:00.000Z",
+          "endDate": "2025-09-30T23:59:59.000Z",
+          "totalRecords": 5000,
+          "updatedRecords": 0
+        },
+        "status": "active"
+      },
+      "message": "Campaign validation failed: endDate: Path `endDate` is required., startDate: Path `startDate` is required., message: Path `message` is required., provider: Path `provider` is required.",
+      "timeStamp": "2025-10-14T10:39:58.752Z"
+    },
+    {
+      "docs": {
+        "name": "September Promo Campaign",
+        "createdBy": "68ca0406959b8811f22833d3",
+        "metaData": {
+          "query": "{'branch':'68ca0406959b8811f22833d3'}",
+          "communication": {
+            "type": "email",
+            "provider": "sendgrid",
+            "message": "Hello! Don’t miss our special September offers."
+          },
+          "startDate": "2025-09-25T00:00:00.000Z",
+          "endDate": "2025-09-30T23:59:59.000Z",
+          "totalRecords": 5000,
+          "updatedRecords": 0
+        },
+        "status": "active"
+      },
+      "message": "Campaign validation failed: endDate: Path `endDate` is required., startDate: Path `startDate` is required., message: Path `message` is required., provider: Path `provider` is required.",
+      "timeStamp": "2025-10-14T10:41:39.537Z"
+    },
+    {
+      "docs": {
+        "name": "September Promo Campaign",
+        "createdBy": "68ca0406959b8811f22833d3",
+        "metaData": {
+          "query": "{'branch':'68ca0406959b8811f22833da'}",
+          "communication": {
+            "type": "email",
+            "provider": "sendgrid",
+            "message": "Hello! Don’t miss our special September offers."
+          },
+          "startDate": "2025-09-25T00:00:00.000Z",
+          "endDate": "2025-09-30T23:59:59.000Z",
+          "totalRecords": 5000,
+          "updatedRecords": 0
+        },
+        "status": "active"
+      },
+      "message": "Campaign validation failed: endDate: Path `endDate` is required., startDate: Path `startDate` is required., message: Path `message` is required., provider: Path `provider` is required.",
+      "timeStamp": "2025-10-14T10:46:22.039Z"
+    },
+    {
+      "docs": {
+        "name": "September Promo Campaign",
+        "createdBy": "68f0e5d5bf2bd577faa0bc4a",
+        "provider": "sendgrid",
+        "message": "Hello! Don’t miss our special September offers.",
+        "startDate": "2025-09-25T00:00:00.000Z",
+        "endDate": "2025-09-30T23:59:59.000Z",
+        "metaData": {
+          "query": "{'branch':'68ca0406959b8811f22833cb'}",
+          "communication": {
+            "type": "email"
+          },
+          "totalRecords": 5000,
+          "updatedRecords": 0
+        },
+        "status": "active"
+      },
+      "message": "Cannot read properties of undefined (reading 'data')",
+      "timeStamp": "2025-10-16T12:58:51.356Z"
+    },
+    {
+      "docs": {
+        "name": "September Promo Campaign",
+        "createdBy": "68f0e5d5bf2bd577faa0bc4a",
+        "provider": "sendgrid",
+        "message": "Hello! Don’t miss our special September offers.",
+        "startDate": "2025-09-25T00:00:00.000Z",
+        "endDate": "2025-09-30T23:59:59.000Z",
+        "metaData": {
+          "query": "{'branch':'68ca0406959b8811f22833cb'}",
+          "communication": {
+            "type": "email"
+          },
+          "totalRecords": 5000,
+          "updatedRecords": 0
+        },
+        "status": "active"
+      },
+      "message": "Cannot read properties of undefined (reading '_id')",
+      "timeStamp": "2025-10-16T12:59:06.402Z"
+    },
+    {
+      "docs": {
+        "name": "September Promo Campaign",
+        "createdBy": "68f0ec543a281449e1e51451",
+        "provider": "sendgrid",
+        "message": "Hello! Don’t miss our special September offers.",
+        "startDate": "2025-09-25T00:00:00.000Z",
+        "endDate": "2025-09-30T23:59:59.000Z",
+        "metaData": {
+          "query": "{'branch':'68ca0406959b8811f22833cb'}",
+          "communication": {
+            "type": "email"
+          },
+          "totalRecords": 5000,
+          "updatedRecords": 0
+        },
+        "status": "active"
+      },
+      "message": "Cannot read properties of undefined (reading '_id')",
+      "timeStamp": "2025-10-16T13:02:01.520Z"
+    },
+    {
+      "docs": {
+        "name": "September Promo Campaign",
+        "createdBy": "68f0ec543a281449e1e51451",
+        "provider": "sendgrid",
+        "message": "Hello! Don’t miss our special September offers.",
+        "startDate": "2025-09-25T00:00:00.000Z",
+        "endDate": "2025-09-30T23:59:59.000Z",
+        "metaData": {
+          "query": "{'branch':'68ca0406959b8811f22833cb'}",
+          "communication": {
+            "type": "email"
+          },
+          "totalRecords": 5000,
+          "updatedRecords": 0
+        },
+        "status": "active"
+      },
+      "message": "Cannot read properties of undefined (reading 'id')",
+      "timeStamp": "2025-10-16T13:02:15.128Z"
+    },
+    {
+      "docs": {
+        "name": "September Promo Campaign",
+        "createdBy": "68f0ec543a281449e1e51451",
+        "provider": "sendgrid",
+        "message": "Hello! Don’t miss our special September offers.",
+        "startDate": "2025-09-25T00:00:00.000Z",
+        "endDate": "2025-09-30T23:59:59.000Z",
+        "metaData": {
+          "query": "{'branch':'68ca0406959b8811f22833cb'}",
+          "communication": {
+            "type": "email"
+          },
+          "totalRecords": 5000,
+          "updatedRecords": 0
+        },
+        "status": "active"
+      },
+      "message": "Cannot read properties of undefined (reading 'id')",
+      "timeStamp": "2025-10-16T13:02:16.119Z"
+    },
+    {
+      "docs": {
+        "name": "September Promo Campaign",
+        "createdBy": "68ca0406959b8811f22833d3",
+        "provider": "sendgrid",
+        "message": "Hello! Don’t miss our special September offers.",
+        "startDate": "2025-09-25T00:00:00.000Z",
+        "endDate": "2025-09-30T23:59:59.000Z",
+        "metaData": {
+          "query": "{'branch':'68ca0406959b8811f22833cb'}",
+          "communication": {
+            "type": "email"
+          },
+          "totalRecords": 5000,
+          "updatedRecords": 0
+        },
+        "status": "active"
+      },
+      "message": "Cannot read properties of undefined (reading '_id')",
+      "timeStamp": "2025-10-16T14:40:56.611Z"
+    },
+    {
+      "docs": {
+        "name": "September Promo Campaign",
+        "createdBy": "68ca0406959b8811f22833d3",
+        "provider": "sendgrid",
+        "message": "Hello! Don’t miss our special September offers.",
+        "startDate": "2025-09-25T00:00:00.000Z",
+        "endDate": "2025-09-30T23:59:59.000Z",
+        "metaData": {
+          "query": "{'branch':'68ca0406959b8811f22833cb'}",
+          "communication": {
+            "type": "email"
+          },
+          "totalRecords": 5000,
+          "updatedRecords": 0
+        },
+        "status": "active"
+      },
+      "message": "createdBy is not defined",
+      "timeStamp": "2025-10-16T14:41:16.152Z"
+    },
+    {
+      "docs": {
+        "name": "September Promo Campaign",
+        "createdBy": "68ca0406959b8811f22833d3",
+        "provider": "sendgrid",
+        "message": "Hello! Don’t miss our special September offers.",
+        "startDate": "2025-09-25T00:00:00.000Z",
+        "endDate": "2025-09-30T23:59:59.000Z",
+        "metaData": {
+          "query": "{'branch':'68ca0406959b8811f22833cb'}",
+          "communication": {
+            "type": "email"
+          },
+          "totalRecords": 5000,
+          "updatedRecords": 0
+        },
+        "status": "active"
+      },
+      "message": "createdBy is not defined",
+      "timeStamp": "2025-10-16T14:41:51.266Z"
+    },
+    {
+      "docs": {
+        "name": "September Promo Campaign",
+        "createdBy": "68ca0406959b8811f22833d3",
+        "provider": "sendgrid",
+        "message": "Hello! Don’t miss our special September offers.",
+        "startDate": "2025-09-25T00:00:00.000Z",
+        "endDate": "2025-09-30T23:59:59.000Z",
+        "metaData": {
+          "query": "{'branch':'68ca0406959b8811f22833cb'}",
+          "communication": {
+            "type": "email"
+          },
+          "totalRecords": 5000,
+          "updatedRecords": 0
+        },
+        "status": "active"
+      },
+      "message": "createdBy is not defined",
+      "timeStamp": "2025-10-16T14:41:52.390Z"
+    },
+    {
+      "docs": {
+        "name": "September Promo Campaign",
+        "createdBy": "68ca0406959b8811f22833d3",
+        "provider": "sendgrid",
+        "message": "Hello! Don’t miss our special September offers.",
+        "startDate": "2025-09-25T00:00:00.000Z",
+        "endDate": "2025-09-30T23:59:59.000Z",
+        "metaData": {
+          "query": "{'branch':'68ca0406959b8811f22833cb'}",
+          "communication": {
+            "type": "email"
+          },
+          "totalRecords": 5000,
+          "updatedRecords": 0
+        },
+        "status": "active"
+      },
+      "message": "createdBy is not defined",
+      "timeStamp": "2025-10-16T14:42:14.666Z"
+    },
+    {
+      "docs": {
+        "name": "September Promo Campaign",
+        "provider": "sendgrid",
+        "message": "Hello! Don’t miss our special September offers.",
+        "startDate": "2025-09-25T00:00:00.000Z",
+        "endDate": "2025-09-30T23:59:59.000Z",
+        "metaData": {
+          "query": "{'branch':'68ca0406959b8811f22833cb'}",
+          "communication": {
+            "type": "email"
+          },
+          "totalRecords": 5000,
+          "updatedRecords": 0
+        },
+        "status": "active"
+      },
+      "message": "createdBy is not defined",
+      "timeStamp": "2025-10-16T14:43:38.732Z"
+    },
+    {
+      "docs": {
+        "name": "September Promo Campaign",
+        "createdBy": "68ca0406959b8811f22833d3",
+        "provider": "sendgrid",
+        "message": "Hello! Don’t miss our special September offers.",
+        "startDate": "2025-09-25T00:00:00.000Z",
+        "endDate": "2025-09-30T23:59:59.000Z",
+        "metaData": {
+          "query": "{'branch':'68ca0406959b8811f22833cb'}",
+          "communication": {
+            "type": "email"
+          },
+          "totalRecords": 5000,
+          "updatedRecords": 0
+        },
+        "status": "active"
+      },
+      "message": "createdBy is not defined",
+      "timeStamp": "2025-10-16T14:43:49.765Z"
+    },
+    {
+      "docs": {
+        "name": "September Promo Campaign",
+        "createdBy": "68ca0406959b8811f22833d3",
+        "provider": "sendgrid",
+        "message": "Hello! Don’t miss our special September offers.",
+        "startDate": "2025-09-25T00:00:00.000Z",
+        "endDate": "2025-09-30T23:59:59.000Z",
+        "metaData": {
+          "query": "{'branch':'68ca0406959b8811f22833cb'}",
+          "communication": {
+            "type": "email"
+          },
+          "totalRecords": 5000,
+          "updatedRecords": 0
+        },
+        "status": "active"
+      },
+      "message": "Cannot read properties of undefined (reading '_id')",
+      "timeStamp": "2025-10-16T14:45:57.774Z"
+    },
+    {
+      "docs": {
+        "name": "maaz",
+        "createdBy": "68f10ce0cb83b0f8c7a76e04",
+        "provider": "Saudi-Mshastra",
+        "communicationType": "sms",
+        "message": "hey there hpw is it going",
+        "startDate": "2025-10-10",
+        "endDate": "2025-10-16",
+        "status": "queued",
+        "totalRecords": 789,
+        "metaData": {
+          "query": "{\"branch\":\"68ca0406959b8811f22833c7\"}",
+          "communication": {
+            "type": "sms"
+          },
+          "totalRecords": 789,
+          "updatedRecords": 0
+        }
+      },
+      "message": "Campaign validation failed: status: `queued` is not a valid enum value for path `status`.",
+      "timeStamp": "2025-10-19T10:36:17.600Z"
+    }
+  ]
+}

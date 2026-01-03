@@ -1,0 +1,117 @@
+
+const [handlesubmit,register,reset:resetfilter]=useform();
+const [branches,setbranches]=useState([]);
+const [reports,setreports]=useState([]);
+const [loading,setloading]=useState(false);
+const [pagination,showpagination]=useState(null);
+const [currentfilter,showcurrentfilter]=useState({});
+const [campaignmodal,showcampaignmodal]=useState(false)
+
+const getToken=()=>{
+    const token=localStorage.getItem("token");
+    if(!token) token=localStorage.getItem("accessToken");
+    if(!token) token=localStorage.getItem("authToken");
+
+    if(!token){
+        const usestr=localStorage.getItem("user");
+
+        if(usestr){
+            try{
+                const user=json.parse(usestr);
+                token=user.token || user.accessToken
+            }catch{
+
+            }
+        }
+    }
+
+    return token;
+}
+
+const fetchbranches=async ()=>{
+    try{
+
+        const token=getToken();
+        const res=await fetch("link",{
+            headers:{Authorization:`Bearer ${token}`}
+        })
+
+        const data=await res.json();
+
+        if(data.success && data.results){
+            const uniquebranches=[];
+            const branchMap=new Map();
+
+            if(!branchMap.has(data.results.branch._id){
+                data.results.forEach((reports)=>{
+                    if(reports.branch && reports.branch._id){
+                        branchMap.set(reports.branch._id,{_id:branch._id,name:branch.name,code:branch.code})
+                    }
+                })
+                uniquebranches.push(branchMap.get(reports.results.branch._id))
+            })
+
+            uniquebranches.sort((a,b)=>a.name.localCompare(b.name));
+
+            setbranches(uniquebranches)
+        }
+
+    }catch{
+
+    }
+}
+
+
+const onSubmit=(data)=>{
+    try{
+        const token=getToken();
+        setloading(true);
+
+        const params=new URLParameters;
+
+        if(data.branchId) params.append("branchId",data.branchId);
+        if(data.gender) params.append("gender",data.gender);
+        if(data.nationality) params.append("nationality",data.nationality);
+
+        if(data.startdate){
+            const startdate=new Date(data.startdate);
+            params.append("startdate",startdate.ISOString())
+        }
+
+        if(data.enddate){
+            const enddate=new Date(data.enddate);
+            enddate.sethours(23,99,99,999);
+
+            params.append("enddate",enddate.ISOString());
+        }
+
+        const res=await fetch(`/localhost/${params.toISOString()}`,{
+            headers:{Authorization:`Bearer ${token}`}
+        })
+
+        const result=await res.json();
+
+        if(result.success){
+            setreports(result.results);
+            setpagination(result.pagination);
+            setcurrentfilter(data);
+            toast.success(`the total number of pages are ${result.pagination.total} pages`)
+        }else{
+            toast.error("failed to load reports)
+        }
+
+    }catch(err){
+        toast.error(`error occured ${err}`);
+
+    }finally{
+        setloading(false)
+    }
+}
+
+const handlecreatecampaignclick=()=>{
+    if(reports.length===0){
+        toast.error("filter reports first")
+    }
+
+    setcampaignmodal(true)
+}
